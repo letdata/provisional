@@ -1,10 +1,10 @@
-trip_date,orig_city,dest_city,orig_state,dest_state
-2019-01-01,"New York","Los Angeles",NY,CA
-2019-02-02,"San Diego","New Orleans",CA,LA
-2019-03-03,Austin,Orlando,TX,FL
-2019-04-04,Miami,Houston,FL,TX
-2019-05-05,"San Francisco","Kansas City",CA,KS
-2019-06-06,Jacksonville,Dallas,FL,TX
-2019-07-07,Newark,Fresno,NJ,CA
-2019-08-08,Dever,Sacramento,CO,CA
-2019-09-09,Detroit,Miami,MI,FL
+trip_date,orig_city,dest_city,orig_state,dest_state,o_state_id,d_state_id
+2019-01-01,"New York","Los Angeles",NY,CA,8,1
+2019-02-02,"San Diego","New Orleans",CA,LA,1,5
+2019-03-03,Austin,Orlando,TX,FL,9,3
+2019-04-04,Miami,Houston,FL,TX,3,9
+2019-05-05,"San Francisco","Kansas City",CA,KS,1,4
+2019-06-06,Jacksonville,Dallas,FL,TX,3,9
+2019-07-07,Newark,Fresno,NJ,CA,7,1
+2019-08-08,Dever,Sacramento,CO,CA,2,1
+2019-09-09,Detroit,Miami,MI,FL,6,3
