@@ -1,6 +1,9 @@
 use utah; -- lm-ws2012-1
 go
-
+/* -------------------------------------------------------------
+    indentation is only to help our eyes/brain
+    this could be flattened and it will work jus the same
+-- ------------------------------------------------------------- */
 select
 	salary6 as salary
 from ( -- s6
