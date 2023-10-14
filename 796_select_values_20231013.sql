@@ -15,6 +15,10 @@ where 1 = 1
 -- and price > 30
 
 insert into yellow..sales (item_id, price) values(893, 49.99)
+insert into yellow..sales select 446, 'five', 12.34
+-- THE LINE BELOW WILL FAIL, mising value for a "NOT NULL" column
+-- insert into yellow..sales (item_id, item_name) values(644, 'six')
+-- -----------------------------------------------------------------
 -- select * from yellow..sales
 
 select
